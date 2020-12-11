@@ -12,4 +12,9 @@ train = pd.read_csv(r"C:\Users\Admin\Desktop\Programming Applications and Projec
 
 test = pd.read_csv(r"C:\Users\Admin\Desktop\Programming Applications and Projects\Datasets\Plant_1_Generation_Data.csv")
 
-
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+ax.scatter(train['DATE_TIME'], train['SOURCE_KEY'], train['DAILY_YIELD'])
+plt.show()
+#ax.scatter3D(train['SOURCE_KEY'], train['DAILY_YIELD'], train['DATE_TIME'], s=0.2)
+#plt.show()
