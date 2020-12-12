@@ -12,4 +12,5 @@ train = pd.read_csv(r"C:\Users\Admin\Desktop\Programming Applications and Projec
 
 test = pd.read_csv(r"C:\Users\Admin\Desktop\Programming Applications and Projects\Datasets\Plant_1_Generation_Data.csv")
 
-
+plt.scatter(train['SOURCE_KEY'], train['TOTAL_YIELD'], s=0.2)
+plt.show()
