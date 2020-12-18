@@ -13,3 +13,6 @@ Possible future updates:
 - Combination of related datasets (inverter and plant data)
 - Forecasting methods
 - Clustering to determine what factors contribute to low power output
+
+Data Source(s):
+https://www.kaggle.com/anikannal/solar-power-generation-data/metadata
